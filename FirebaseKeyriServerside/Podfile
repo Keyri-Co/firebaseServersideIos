@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FirebaseKeyriServerside' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FirebaseKeyriServerside
+  pod 'keyri-pod'
+  pod 'FirebaseAuth'
+
+  target 'FirebaseKeyriServersideTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FirebaseKeyriServersideUITests' do
+    # Pods for testing
+  end
+
+end

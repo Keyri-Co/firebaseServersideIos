@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A4DF669BF1B972D1C8348A /* Pods_FirebaseKeyriServerside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7115ECC11EF716D3122673 /* Pods_FirebaseKeyriServerside.framework */; };
+		20583C9D293B8E660045831D /* FirebaseKeyriServersideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20583C9C293B8E660045831D /* FirebaseKeyriServersideApp.swift */; };
+		20583C9F293B8E660045831D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20583C9E293B8E660045831D /* HomeScreen.swift */; };
+		20583CA1293B8E670045831D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20583CA0293B8E670045831D /* Assets.xcassets */; };
+		20583CA4293B8E670045831D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20583CA3293B8E670045831D /* Preview Assets.xcassets */; };
+		20583CAE293B8E670045831D /* FirebaseKeyriServersideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20583CAD293B8E670045831D /* FirebaseKeyriServersideTests.swift */; };
+		20583CB8293B8E670045831D /* FirebaseKeyriServersideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20583CB7293B8E670045831D /* FirebaseKeyriServersideUITests.swift */; };
+		20583CBA293B8E670045831D /* FirebaseKeyriServersideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20583CB9293B8E670045831D /* FirebaseKeyriServersideUITestsLaunchTests.swift */; };
+		20583CC7293C0F180045831D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20583CC6293C0F180045831D /* GoogleService-Info.plist */; };
+		20583CC9293CF18F0045831D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20583CC8293CF18F0045831D /* Network.swift */; };
+		5B2ACD5A3CBB84ACB429B469 /* Pods_FirebaseKeyriServersideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAA200980CCF31E2A0F473E /* Pods_FirebaseKeyriServersideTests.framework */; };
+		CEFAF7D507FE90888AE64E4E /* Pods_FirebaseKeyriServerside_FirebaseKeyriServersideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701717099B1150D77EDF66AE /* Pods_FirebaseKeyriServerside_FirebaseKeyriServersideUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20583CAA293B8E670045831D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20583C91293B8E660045831D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20583C98293B8E660045831D;
+			remoteInfo = FirebaseKeyriServerside;
+		};
+		20583CB4293B8E670045831D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20583C91293B8E660045831D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20583C98293B8E660045831D;
+			remoteInfo = FirebaseKeyriServerside;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0622C72F624482FE3167B56C /* Pods-FirebaseKeyriServerside.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseKeyriServerside.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseKeyriServerside/Pods-FirebaseKeyriServerside.debug.xcconfig"; sourceTree = "<group>"; };
+		120D90D93FA5A3E4EC8C82F6 /* Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20583C99293B8E660045831D /* FirebaseKeyriServerside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseKeyriServerside.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20583C9C293B8E660045831D /* FirebaseKeyriServersideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseKeyriServersideApp.swift; sourceTree = "<group>"; };
+		20583C9E293B8E660045831D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		20583CA0293B8E670045831D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20583CA3293B8E670045831D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20583CA9293B8E670045831D /* FirebaseKeyriServersideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseKeyriServersideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20583CAD293B8E670045831D /* FirebaseKeyriServersideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseKeyriServersideTests.swift; sourceTree = "<group>"; };
+		20583CB3293B8E670045831D /* FirebaseKeyriServersideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseKeyriServersideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20583CB7293B8E670045831D /* FirebaseKeyriServersideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseKeyriServersideUITests.swift; sourceTree = "<group>"; };
+		20583CB9293B8E670045831D /* FirebaseKeyriServersideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseKeyriServersideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20583CC6293C0F180045831D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		20583CC8293CF18F0045831D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		20583CCA293CF4EE0045831D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4F384687781F620768E401B1 /* Pods-FirebaseKeyriServersideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseKeyriServersideTests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseKeyriServersideTests/Pods-FirebaseKeyriServersideTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0FCA8503368674617DFF87 /* Pods-FirebaseKeyriServerside.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseKeyriServerside.release.xcconfig"; path = "Target Support Files/Pods-FirebaseKeyriServerside/Pods-FirebaseKeyriServerside.release.xcconfig"; sourceTree = "<group>"; };
+		701717099B1150D77EDF66AE /* Pods_FirebaseKeyriServerside_FirebaseKeyriServersideUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseKeyriServerside_FirebaseKeyriServersideUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAA200980CCF31E2A0F473E /* Pods_FirebaseKeyriServersideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseKeyriServersideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7115ECC11EF716D3122673 /* Pods_FirebaseKeyriServerside.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseKeyriServerside.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE259640C2FD2E57A5B13677 /* Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C409D664C172CB97287EE23A /* Pods-FirebaseKeyriServersideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseKeyriServersideTests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseKeyriServersideTests/Pods-FirebaseKeyriServersideTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20583C96293B8E660045831D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A4DF669BF1B972D1C8348A /* Pods_FirebaseKeyriServerside.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20583CA6293B8E670045831D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2ACD5A3CBB84ACB429B469 /* Pods_FirebaseKeyriServersideTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20583CB0293B8E670045831D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFAF7D507FE90888AE64E4E /* Pods_FirebaseKeyriServerside_FirebaseKeyriServersideUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20583C90293B8E660045831D = {
+			isa = PBXGroup;
+			children = (
+				20583CC6293C0F180045831D /* GoogleService-Info.plist */,
+				20583C9B293B8E660045831D /* FirebaseKeyriServerside */,
+				20583CAC293B8E670045831D /* FirebaseKeyriServersideTests */,
+				20583CB6293B8E670045831D /* FirebaseKeyriServersideUITests */,
+				20583C9A293B8E660045831D /* Products */,
+				6940FCEE9D6B5AF95B195783 /* Pods */,
+				B82CF0E615E6EBF68D04E29C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20583C9A293B8E660045831D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20583C99293B8E660045831D /* FirebaseKeyriServerside.app */,
+				20583CA9293B8E670045831D /* FirebaseKeyriServersideTests.xctest */,
+				20583CB3293B8E670045831D /* FirebaseKeyriServersideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20583C9B293B8E660045831D /* FirebaseKeyriServerside */ = {
+			isa = PBXGroup;
+			children = (
+				20583CCA293CF4EE0045831D /* Info.plist */,
+				20583C9C293B8E660045831D /* FirebaseKeyriServersideApp.swift */,
+				20583C9E293B8E660045831D /* HomeScreen.swift */,
+				20583CA0293B8E670045831D /* Assets.xcassets */,
+				20583CA2293B8E670045831D /* Preview Content */,
+				20583CC8293CF18F0045831D /* Network.swift */,
+			);
+			path = FirebaseKeyriServerside;
+			sourceTree = "<group>";
+		};
+		20583CA2293B8E670045831D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20583CA3293B8E670045831D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20583CAC293B8E670045831D /* FirebaseKeyriServersideTests */ = {
+			isa = PBXGroup;
+			children = (
+				20583CAD293B8E670045831D /* FirebaseKeyriServersideTests.swift */,
+			);
+			path = FirebaseKeyriServersideTests;
+			sourceTree = "<group>";
+		};
+		20583CB6293B8E670045831D /* FirebaseKeyriServersideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20583CB7293B8E670045831D /* FirebaseKeyriServersideUITests.swift */,
+				20583CB9293B8E670045831D /* FirebaseKeyriServersideUITestsLaunchTests.swift */,
+			);
+			path = FirebaseKeyriServersideUITests;
+			sourceTree = "<group>";
+		};
+		6940FCEE9D6B5AF95B195783 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0622C72F624482FE3167B56C /* Pods-FirebaseKeyriServerside.debug.xcconfig */,
+				6A0FCA8503368674617DFF87 /* Pods-FirebaseKeyriServerside.release.xcconfig */,
+				120D90D93FA5A3E4EC8C82F6 /* Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests.debug.xcconfig */,
+				BE259640C2FD2E57A5B13677 /* Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests.release.xcconfig */,
+				4F384687781F620768E401B1 /* Pods-FirebaseKeyriServersideTests.debug.xcconfig */,
+				C409D664C172CB97287EE23A /* Pods-FirebaseKeyriServersideTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B82CF0E615E6EBF68D04E29C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF7115ECC11EF716D3122673 /* Pods_FirebaseKeyriServerside.framework */,
+				701717099B1150D77EDF66AE /* Pods_FirebaseKeyriServerside_FirebaseKeyriServersideUITests.framework */,
+				AEAA200980CCF31E2A0F473E /* Pods_FirebaseKeyriServersideTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20583C98293B8E660045831D /* FirebaseKeyriServerside */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20583CBD293B8E670045831D /* Build configuration list for PBXNativeTarget "FirebaseKeyriServerside" */;
+			buildPhases = (
+				87E7EF87A7A37FBA98737CB1 /* [CP] Check Pods Manifest.lock */,
+				20583C95293B8E660045831D /* Sources */,
+				20583C96293B8E660045831D /* Frameworks */,
+				20583C97293B8E660045831D /* Resources */,
+				96CABCDF6F1DD8A9230284A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseKeyriServerside;
+			productName = FirebaseKeyriServerside;
+			productReference = 20583C99293B8E660045831D /* FirebaseKeyriServerside.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20583CA8293B8E670045831D /* FirebaseKeyriServersideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20583CC0293B8E670045831D /* Build configuration list for PBXNativeTarget "FirebaseKeyriServersideTests" */;
+			buildPhases = (
+				0ECDB1F1FA300E3786DC2B2F /* [CP] Check Pods Manifest.lock */,
+				20583CA5293B8E670045831D /* Sources */,
+				20583CA6293B8E670045831D /* Frameworks */,
+				20583CA7293B8E670045831D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20583CAB293B8E670045831D /* PBXTargetDependency */,
+			);
+			name = FirebaseKeyriServersideTests;
+			productName = FirebaseKeyriServersideTests;
+			productReference = 20583CA9293B8E670045831D /* FirebaseKeyriServersideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20583CB2293B8E670045831D /* FirebaseKeyriServersideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20583CC3293B8E670045831D /* Build configuration list for PBXNativeTarget "FirebaseKeyriServersideUITests" */;
+			buildPhases = (
+				C2885A1F2E2EC62037D31684 /* [CP] Check Pods Manifest.lock */,
+				20583CAF293B8E670045831D /* Sources */,
+				20583CB0293B8E670045831D /* Frameworks */,
+				20583CB1293B8E670045831D /* Resources */,
+				B420DD75A709CC7638870F71 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20583CB5293B8E670045831D /* PBXTargetDependency */,
+			);
+			name = FirebaseKeyriServersideUITests;
+			productName = FirebaseKeyriServersideUITests;
+			productReference = 20583CB3293B8E670045831D /* FirebaseKeyriServersideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20583C91293B8E660045831D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					20583C98293B8E660045831D = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					20583CA8293B8E670045831D = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 20583C98293B8E660045831D;
+					};
+					20583CB2293B8E670045831D = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 20583C98293B8E660045831D;
+					};
+				};
+			};
+			buildConfigurationList = 20583C94293B8E660045831D /* Build configuration list for PBXProject "FirebaseKeyriServerside" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20583C90293B8E660045831D;
+			productRefGroup = 20583C9A293B8E660045831D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20583C98293B8E660045831D /* FirebaseKeyriServerside */,
+				20583CA8293B8E670045831D /* FirebaseKeyriServersideTests */,
+				20583CB2293B8E670045831D /* FirebaseKeyriServersideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20583C97293B8E660045831D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20583CA4293B8E670045831D /* Preview Assets.xcassets in Resources */,
+				20583CA1293B8E670045831D /* Assets.xcassets in Resources */,
+				20583CC7293C0F180045831D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20583CA7293B8E670045831D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20583CB1293B8E670045831D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ECDB1F1FA300E3786DC2B2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseKeyriServersideTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87E7EF87A7A37FBA98737CB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseKeyriServerside-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96CABCDF6F1DD8A9230284A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseKeyriServerside/Pods-FirebaseKeyriServerside-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseKeyriServerside/Pods-FirebaseKeyriServerside-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseKeyriServerside/Pods-FirebaseKeyriServerside-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B420DD75A709CC7638870F71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2885A1F2E2EC62037D31684 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20583C95293B8E660045831D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20583C9F293B8E660045831D /* HomeScreen.swift in Sources */,
+				20583C9D293B8E660045831D /* FirebaseKeyriServersideApp.swift in Sources */,
+				20583CC9293CF18F0045831D /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20583CA5293B8E670045831D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20583CAE293B8E670045831D /* FirebaseKeyriServersideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20583CAF293B8E670045831D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20583CBA293B8E670045831D /* FirebaseKeyriServersideUITestsLaunchTests.swift in Sources */,
+				20583CB8293B8E670045831D /* FirebaseKeyriServersideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20583CAB293B8E670045831D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20583C98293B8E660045831D /* FirebaseKeyriServerside */;
+			targetProxy = 20583CAA293B8E670045831D /* PBXContainerItemProxy */;
+		};
+		20583CB5293B8E670045831D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20583C98293B8E660045831D /* FirebaseKeyriServerside */;
+			targetProxy = 20583CB4293B8E670045831D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20583CBB293B8E670045831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20583CBC293B8E670045831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20583CBE293B8E670045831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0622C72F624482FE3167B56C /* Pods-FirebaseKeyriServerside.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseKeyriServerside/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirebaseKeyriServerside/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR Scan";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "PW less auth";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.FirebaseKeyriServerside;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20583CBF293B8E670045831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0FCA8503368674617DFF87 /* Pods-FirebaseKeyriServerside.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseKeyriServerside/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirebaseKeyriServerside/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR Scan";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "PW less auth";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.FirebaseKeyriServerside;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20583CC1293B8E670045831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F384687781F620768E401B1 /* Pods-FirebaseKeyriServersideTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.FirebaseKeyriServersideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseKeyriServerside.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirebaseKeyriServerside";
+			};
+			name = Debug;
+		};
+		20583CC2293B8E670045831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C409D664C172CB97287EE23A /* Pods-FirebaseKeyriServersideTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.FirebaseKeyriServersideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseKeyriServerside.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirebaseKeyriServerside";
+			};
+			name = Release;
+		};
+		20583CC4293B8E670045831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120D90D93FA5A3E4EC8C82F6 /* Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.FirebaseKeyriServersideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebaseKeyriServerside;
+			};
+			name = Debug;
+		};
+		20583CC5293B8E670045831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE259640C2FD2E57A5B13677 /* Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.FirebaseKeyriServersideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebaseKeyriServerside;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20583C94293B8E660045831D /* Build configuration list for PBXProject "FirebaseKeyriServerside" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20583CBB293B8E670045831D /* Debug */,
+				20583CBC293B8E670045831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20583CBD293B8E670045831D /* Build configuration list for PBXNativeTarget "FirebaseKeyriServerside" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20583CBE293B8E670045831D /* Debug */,
+				20583CBF293B8E670045831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20583CC0293B8E670045831D /* Build configuration list for PBXNativeTarget "FirebaseKeyriServersideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20583CC1293B8E670045831D /* Debug */,
+				20583CC2293B8E670045831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20583CC3293B8E670045831D /* Build configuration list for PBXNativeTarget "FirebaseKeyriServersideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20583CC4293B8E670045831D /* Debug */,
+				20583CC5293B8E670045831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20583C91293B8E660045831D /* Project object */;
+}

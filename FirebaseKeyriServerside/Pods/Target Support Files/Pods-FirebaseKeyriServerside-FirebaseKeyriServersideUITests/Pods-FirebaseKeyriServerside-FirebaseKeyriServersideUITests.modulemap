@@ -1,0 +1,6 @@
+framework module Pods_FirebaseKeyriServerside_FirebaseKeyriServersideUITests {
+  umbrella header "Pods-FirebaseKeyriServerside-FirebaseKeyriServersideUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
